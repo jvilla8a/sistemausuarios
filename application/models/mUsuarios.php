@@ -35,7 +35,8 @@ class mUsuarios extends CI_Model
     public function listarFotos()
     {
         $consulta = "SELECT
-        foto
+        foto,
+        titulo
         FROM album
         ";
         return $this->db->query($consulta);

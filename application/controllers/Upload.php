@@ -66,9 +66,9 @@ class Upload extends CI_Controller
 				else{
 					$registro = array(
 						'foto' => $file_info['file_name'],
-						'titulo' => $this->input->post("cboCampo"),
-						'usr' => $this->input->post("txtUsuario")
-						);
+						'titulo' => $this->input->post("txtTitulo"),
+						'usr' => $this->input->post("cboCampo")
+					);
 					$this->mUsuarios->insertarRegistro("album", $registro);
 				}
 				$this->_create_thumbnail($file_info['file_name']);
