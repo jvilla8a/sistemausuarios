@@ -1,0 +1,58 @@
+#contenedor{
+    position: relative;
+    width: 900px;
+    height: 1300px;
+    left: 5%;
+    top: 10px;  
+}
+
+#cabecera{
+    width: 900px;
+    height: 100px;
+    left: 200px;
+    top:100px;
+    color:blue;
+    background: #CCC;
+    text-align: center;
+}
+
+#enlaces{
+    width: 200px;
+    height: 1200px;
+    left: 0px;
+    top:100px;
+    color:#FFF;
+    background-color: #000;
+    position: absolute;
+}
+
+#contenido{
+    position: absolute;
+    width: 700px;
+    height: 1200px;
+    left: 200px;
+    top: 100px;
+    color: gray;
+    background: aqua;
+}
+
+#pie{
+    width: 900px;
+    height: 150px;
+    left: 0px;
+    top: 1200px;
+    color: green;
+    background: bisque;
+    position: absolute;
+    text-align: center;
+}
+
+a{
+   color: #FFF;
+   text-decoration: none;
+}
+
+a:hover{
+    color:orange;
+    text-decoration: underline;
+}
