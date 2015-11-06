@@ -69,7 +69,7 @@ class mUsuarios extends CI_Model
 
     public function buscarFotos($campo)
     {
-        $consulta = "   SELECT foto
+        $consulta = "   SELECT foto, titulo
                                 FROM album
                                 WHERE usr LIKE '$campo'";
         return $this->db->query($consulta);
