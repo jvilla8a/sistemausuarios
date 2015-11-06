@@ -50,7 +50,7 @@
 					echo "<tr><td style='text-align: center;'>$fila->titulo</td></tr>";
 					echo "<tr>";
 					echo "<td>";
-					echo "<img src='" . base_url() . "assets/uploads/thumbs/". $nombre[0] . "_thumb.". $nombre[1] ."' />";
+					echo "<img src='" . base_url() . "assets/uploads/thumbs/". $nombre[0] . "_thumb.". $nombre[1] ."'  class='image'/>";
 					echo "</td>";
 					echo "</tr>";
 				}

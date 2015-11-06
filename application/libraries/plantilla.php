@@ -94,6 +94,8 @@ class plantilla
         $this->head .= "<title>Inicio</title>";
         $this->head .= "<link rel='stylesheet' type='text/css' href='" . $this->rutaCSS . "/styles.css'/>";
         $this->head .= "<link rel='stylesheet' type='text/css' href='". $this->rutaCSS . "/template.css'/>";
+        $this->head .= "<script src='". $this->rutaJS ."/jquery-2.1.4.js'></script>";
+        $this->head .= "<script src='". $this->rutaJS ."/functions.js'></script>";
     }
 
 
